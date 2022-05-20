@@ -1,7 +1,12 @@
+import Create from "./components/natters/Create";
+import List from "./components/natters/List";
+
 function App() {
   return (
-    <div>
-      <h1>Hello, World!</h1>
+    <div className="container">
+      <Create />
+      <hr />
+      <List />
     </div>
   );
 }
